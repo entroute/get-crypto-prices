@@ -1,0 +1,33 @@
+{
+  "name": "get-crypto-prices",
+  "version": "0.1.0",
+  "description": "Get real-time crypto prices via any verified x402 endpoint. No API key, pay-per-request in USDC.",
+  "keywords": [
+    "x402",
+    "crypto-price-api",
+    "token-price",
+    "eth-price",
+    "coingecko-alternative",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request",
+    "base"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/get-crypto-prices/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
